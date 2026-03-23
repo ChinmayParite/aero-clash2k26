@@ -956,8 +956,35 @@
             }
 
             .reg-container {
-                padding: 1.5rem;
+                padding: 1.5rem 1rem;
                 gap: 2rem;
+                width: 100%;
+                max-width: 100%;
+                margin: 0 auto;
+                box-sizing: border-box;
+                overflow: hidden;
+            }
+
+            .reg-form, .payment-box {
+                min-width: 0;
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .payment-box {
+                padding: 1.2rem;
+            }
+
+            .payment-header {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.8rem;
+                text-align: center;
+            }
+
+            .payment-btn {
+                white-space: normal;
+                word-wrap: break-word;
             }
 
             .form-control {
@@ -1140,7 +1167,7 @@
             </div>
 
             <p class="cert-note">
-                <i class="fa-solid fa-certificate"></i> E-Certificate of Participation provided to all completing teams.
+                <i class="fa-solid fa-certificate"></i> E-Certificate of Participation provided to all competing teams.
             </p>
         </div>
     </section>

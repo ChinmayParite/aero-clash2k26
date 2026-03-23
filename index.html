@@ -262,6 +262,7 @@
             margin: 0;
             background: linear-gradient(to right, #fff, #bdc3c7);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             text-shadow: 0 0 40px rgba(255, 215, 0, 0.2);
         }
@@ -956,6 +957,20 @@
 
             .reg-container {
                 padding: 1.5rem;
+                gap: 2rem;
+            }
+
+            .form-control {
+                padding: 0.8rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            .form-group label {
+                font-size: 0.85rem;
+            }
+
+            .form-control::placeholder {
+                font-size: 0.85rem;
             }
 
             section {
